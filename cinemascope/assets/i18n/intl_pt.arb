@@ -1,0 +1,215 @@
+{
+  "@@locale": "pt",
+  "@@last_modified": "2020-12-22T02:06:09.797840",
+  "appTitle": "Cinemascope",
+  "@appTitle": {
+    "description": "App main title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "yes": "{firstLetterUCase,select, true{Sim}false{sim}}",
+  "@yes": {
+    "type": "text",
+    "placeholders": {
+      "firstLetterUCase": {}
+    }
+  },
+  "no": "{firstLetterUCase,select, true{Não}false{não}}",
+  "@no": {
+    "type": "text",
+    "placeholders": {
+      "firstLetterUCase": {}
+    }
+  },
+  "yesNo": "{yes,select, true{sim}false{não}}",
+  "@yesNo": {
+    "type": "text",
+    "placeholders": {
+      "yes": {}
+    }
+  },
+  "trending": "Em Destaque",
+  "@trending": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "discover": "Descubra",
+  "@discover": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "assignments": "Inscrições",
+  "@assignments": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "library": "Biblioteca",
+  "@library": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "settings": "Configurações",
+  "@settings": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "settingsLanguages": "Selecione um idioma",
+  "@settingsLanguages": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "settingsRegions": "Selecione uma região",
+  "@settingsRegions": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "favorite": "Favoritos",
+  "@favorite": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "favoriteTooltip": "{value,select, true{Remover dos favoritos}false{Adicionar aos favoritos}}",
+  "@favoriteTooltip": {
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "watchList": "Assistir depois",
+  "@watchList": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "watchListTooltip": "{value,select, true{Remover da lista para assistir}false{Adicionar a lista para assistir}}",
+  "@watchListTooltip": {
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "rate": "Avaliar",
+  "@rate": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "rateTooltip": "{value,select, true{Editar ou remover sua avaliação}false{Avaliar}}",
+  "@rateTooltip": {
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "playlist": "Minhas listas",
+  "@playlist": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "playlistTooltip": "Adicionar ou remover das minhas listas",
+  "@playlistTooltip": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mediaFavoriteChanged": "{value,select, true{Adicionado aos favoritos}false{Removido dos favoritos}}",
+  "@mediaFavoriteChanged": {
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "mediaWatchListChanged": "{value,select, true{Adicionado a lista para assistir}false{Removido da lista para assistir}}",
+  "@mediaWatchListChanged": {
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "mediaRateChanged": "{value,select, true{Item avaliado}false{Avaliação do item removida}}",
+  "@mediaRateChanged": {
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "_mediaListsChanged": "{added,select, true{{howMany,plural, =0{}=1{Adicionado a 1 lista. }other{Adicionado a {howMany} listas. }}}false{{howMany,plural, =0{}=1{Removido de 1 lista. }other{Removido de {howMany} listas. }}}}",
+  "@_mediaListsChanged": {
+    "type": "text",
+    "placeholders": {
+      "added": {},
+      "howMany": {}
+    }
+  },
+  "sortOrder": "{order,select, asc{{invert,select, true{descendente}false{ascendente}}}desc{{invert,select, true{ascendente}false{descendente}}}}",
+  "@sortOrder": {
+    "type": "text",
+    "placeholders": {
+      "order": {},
+      "invert": {}
+    }
+  },
+  "_sortOrderSwitch": "Mudar para ordem \"{orderText}\"",
+  "@_sortOrderSwitch": {
+    "type": "text",
+    "placeholders": {
+      "orderText": {}
+    }
+  },
+  "pageTitle": "Descobrir Filmes",
+  "@pageTitle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "setupTitle": "Descobrir Filmes - Filtros",
+  "@setupTitle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "setupButton": "Configurar Filtros",
+  "@setupButton": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "closeButton": "Fechar",
+  "@closeButton": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "applyButton": "Aplicar",
+  "@applyButton": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "_sortText": "{sortText,select, popularity{Popularidade}original_title{Título}release_date{Lançamento}vote_average{Avaliação}vote_count{Mais votados}revenue{Renda}}",
+  "@_sortText": {
+    "type": "text",
+    "placeholders": {
+      "sortText": {}
+    }
+  },
+  "orderText": "{order,select, asc{Ordem ascendente}desc{Ordem descendente}}",
+  "@orderText": {
+    "type": "text",
+    "placeholders": {
+      "order": {}
+    }
+  },
+  "year": "Ano",
+  "@year": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ofRelease": "de lançamento",
+  "@ofRelease": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "yearOfReleaseHint": "Exemplo: 2004",
+  "@yearOfReleaseHint": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "yearOfReleaseError": "Ano inválido",
+  "@yearOfReleaseError": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

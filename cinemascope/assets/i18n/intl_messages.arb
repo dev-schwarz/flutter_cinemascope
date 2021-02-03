@@ -1,0 +1,214 @@
+{
+  "@@last_modified": "2021-01-30T22:46:50.511042",
+  "appTitle": "Cinemascope",
+  "@appTitle": {
+    "description": "App main title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "yes": "{firstLetterUCase,select, true{Yes}false{yes}}",
+  "@yes": {
+    "type": "text",
+    "placeholders": {
+      "firstLetterUCase": {}
+    }
+  },
+  "no": "{firstLetterUCase,select, true{No}false{no}}",
+  "@no": {
+    "type": "text",
+    "placeholders": {
+      "firstLetterUCase": {}
+    }
+  },
+  "yesNo": "{yes,select, true{yes}false{no}}",
+  "@yesNo": {
+    "type": "text",
+    "placeholders": {
+      "yes": {}
+    }
+  },
+  "trending": "Trending",
+  "@trending": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "discover": "Discover",
+  "@discover": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "assignments": "Assignments",
+  "@assignments": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "library": "Library",
+  "@library": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "settings": "Settings",
+  "@settings": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "settingsLanguages": "Select a language",
+  "@settingsLanguages": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "settingsRegions": "Select a region",
+  "@settingsRegions": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "favorite": "Favorite",
+  "@favorite": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "favoriteTooltip": "{value,select, true{Remove from favorites}false{Add to favorites}}",
+  "@favoriteTooltip": {
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "watchList": "Watch List",
+  "@watchList": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "watchListTooltip": "{value,select, true{Remove from watch list}false{Add to watch list}}",
+  "@watchListTooltip": {
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "rate": "Rate",
+  "@rate": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "rateTooltip": "{value,select, true{Edit or remove your rating}false{Rate}}",
+  "@rateTooltip": {
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "playlist": "Add to playlist",
+  "@playlist": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "playlistTooltip": "Add to playlist",
+  "@playlistTooltip": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mediaFavoriteChanged": "{value,select, true{Added to favorites}false{Removed from favorites}}",
+  "@mediaFavoriteChanged": {
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "mediaWatchListChanged": "{value,select, true{Added to watch list}false{Removed from watch list}}",
+  "@mediaWatchListChanged": {
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "mediaRateChanged": "{value,select, true{Item rated}false{Item rating cleared}}",
+  "@mediaRateChanged": {
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "_mediaListsChanged": "{added,select, true{{howMany,plural, =0{}=1{Added to 1 list. }other{Added to {howMany} lists. }}}false{{howMany,plural, =0{}=1{Removed from 1 list. }other{Removed from {howMany} lists. }}}}",
+  "@_mediaListsChanged": {
+    "type": "text",
+    "placeholders": {
+      "added": {},
+      "howMany": {}
+    }
+  },
+  "sortOrder": "{order,select, asc{{invert,select, true{descending}false{ascending}}}desc{{invert,select, true{ascending}false{descending}}}}",
+  "@sortOrder": {
+    "type": "text",
+    "placeholders": {
+      "order": {},
+      "invert": {}
+    }
+  },
+  "_sortOrderSwitch": "Switch to \"{orderText}\" order",
+  "@_sortOrderSwitch": {
+    "type": "text",
+    "placeholders": {
+      "orderText": {}
+    }
+  },
+  "pageTitle": "Discover Movies",
+  "@pageTitle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "setupTitle": "Discover Movies Setup",
+  "@setupTitle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "setupButton": "Setup Filters",
+  "@setupButton": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "closeButton": "Close",
+  "@closeButton": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "applyButton": "Apply",
+  "@applyButton": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "_sortText": "{sortText,select, popularity{Popularity}original_title{Original title}release_date{Release date}vote_average{Vote average}vote_count{Vote count}revenue{Revenue}}",
+  "@_sortText": {
+    "type": "text",
+    "placeholders": {
+      "sortText": {}
+    }
+  },
+  "orderText": "{order,select, asc{Ascending order}desc{Descending order}}",
+  "@orderText": {
+    "type": "text",
+    "placeholders": {
+      "order": {}
+    }
+  },
+  "year": "Year",
+  "@year": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ofRelease": "of release",
+  "@ofRelease": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "yearOfReleaseHint": "Sample: 2004",
+  "@yearOfReleaseHint": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "yearOfReleaseError": "Invalid year",
+  "@yearOfReleaseError": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

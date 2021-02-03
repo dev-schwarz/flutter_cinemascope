@@ -1,0 +1,77 @@
+name: cinemascope
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  intl: ^0.16.1
+  mobx: ^1.2.1+2
+  flutter_mobx: ^1.1.0+2
+  flutter_modular: ^2.0.1
+  provider: ^4.3.2+2
+  shared_preferences: ^0.5.7+2
+  equatable: ^1.1.1
+  webview_flutter: ^1.0.7
+  tmdb_repository:
+    path: ../tmdb_repository
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  intl_translation: ^0.17.0
+  mobx_codegen: ^1.1.0+1
+  build_runner:
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/lato/Lato-Light.ttf
+          weight: 300
+        - asset: assets/fonts/lato/Lato-Regular.ttf
+        - asset: assets/fonts/lato/Lato-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/lato/Lato-Black.ttf
+          weight: 900
+    - family: NotoSansJP
+      fonts:
+        - asset: assets/fonts/noto_sans_jp/NotoSansJP-Light.otf
+          weight: 300
+        - asset: assets/fonts/noto_sans_jp/NotoSansJP-Regular.otf
+        - asset: assets/fonts/noto_sans_jp/NotoSansJP-Medium.otf
+          weight: 500
+        - asset: assets/fonts/noto_sans_jp/NotoSansJP-Bold.otf
+          weight: 700
+        - asset: assets/fonts/noto_sans_jp/NotoSansJP-Black.otf
+          weight: 900
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/rubik/Rubik-Light.ttf
+          weight: 300
+        - asset: assets/fonts/rubik/Rubik-Regular.ttf
+        - asset: assets/fonts/rubik/Rubik-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/rubik/Rubik-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/rubik/Rubik-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/rubik/Rubik-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/rubik/Rubik-Black.ttf
+          weight: 900
